@@ -23,6 +23,8 @@ class ViewController: UIViewController {
         print(reverse(message) + "hello")
         
         lable.text = reverse(message)
+        
+        print("new data")
     }
 
     
