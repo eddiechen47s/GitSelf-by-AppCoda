@@ -10,16 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let message = "123"
+    let message = "123456"
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
         
-        print(message)
+//        print(message)
+        print(reverse(message))
     }
 
+    
+    func reverse(_ text: String) -> String {
+        return String(text.reversed())
+    }
 
 }
 
