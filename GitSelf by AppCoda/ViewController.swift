@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         
         
 //        print(message)
-        print(reverse(message))
+        print(reverse(message) + "hello")
     }
 
     
