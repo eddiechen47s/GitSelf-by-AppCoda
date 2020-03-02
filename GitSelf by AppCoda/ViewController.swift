@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    let message = "hello git!!!!!!!"
+    let message = "hello git~~~~~~~"
 
     @IBOutlet weak var lable: UILabel!
     
